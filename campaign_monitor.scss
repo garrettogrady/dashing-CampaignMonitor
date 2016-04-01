@@ -1,0 +1,39 @@
+$background-color:  #C8C749;
+$full-color:  rgba(255, 255, 255, 1);
+$light-color: rgba(255, 255, 255, 0.7);
+
+.widget-campaign-monitor {
+  background-color: $background-color;
+  color: $light-color;
+  padding: 0;
+
+  img {
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  ul {
+    margin: 0px 15px;
+    text-align: left;
+
+    li {
+      margin: 7px 0;
+    }
+
+    .value {
+      float: right;
+      color: $full-color;
+      font-weight: 600;
+      font-size: 20px;
+      font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+  }
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
